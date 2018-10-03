@@ -16,6 +16,7 @@ module FormsLab
       @weight = params[:weight]
       @height = params[:height]
       
+      
       erb :show 
     end  
   end   
