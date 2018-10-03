@@ -13,8 +13,10 @@ module FormsLab
     
     post '/pirates' do 
       @name = params[:name]
+      @weight = params[:weight]
+      @height = params[:height]
       
-    erb :show 
+      erb :show 
     end  
   end   
 end
